@@ -184,6 +184,11 @@ section { padding: 64px 5%; }
 .ci-label { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; color: var(--bb); margin-bottom: 2px; }
 .ci-val { font-size: 0.85rem; color: var(--dark); text-decoration: none; line-height: 1.5; font-weight: 500; }
 .ci-val:hover { color: var(--bb); }
+.text-examples { margin-top: 10px; display: flex; flex-direction: column; gap: 10px; } 
+.text-group { padding-left: 10px; border-left: 2px solid var(--bb-lt); }
+.text-title { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--bb); margin-bottom: 4px; }
+.text-example { font-size: 0.72rem; line-height: 1.6; color: #666; margin-bottom: 2px; }
+.text-example:last-child { margin-bottom: 0; }
 .social-row { display: flex; gap: 8px; margin-top: 4px; }
 .social-pill { padding: 5px 14px; border-radius: 20px; background: var(--bb-pale); border: 1px solid var(--bb-lt); color: var(--bb); font-size: 0.77rem; font-weight: 600; text-decoration: none; transition: background .2s, color .2s; }
 .social-pill:hover { background: var(--bb); color: var(--white); border-color: var(--bb); }
